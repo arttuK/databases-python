@@ -1,0 +1,6 @@
+-- SQLite
+
+CREATE TABLE Asiakas (id INTEGER PRIMARY KEY, asiakas TEXT);
+CREATE TABLE Paketti (id INTEGER PRIMARY KEY, paketti TEXT);
+CREATE TABLE Paikka (id INTEGER PRIMARY KEY, paikka TEXT);
+CREATE TABLE Tapahtuma (id INTEGER PRIMARY KEY, paketti_id INTEGER, paikka_id INTEGER);
