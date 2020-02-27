@@ -7,4 +7,3 @@ INSERT INTO Paketti
 (paketti, asiakas_id)
 VALUES
 ("A1700", 1);
-   
